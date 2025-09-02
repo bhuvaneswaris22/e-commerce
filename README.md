@@ -5,7 +5,7 @@
 
 *A sleek, lightweight shopping demo built with HTML, CSS, and JavaScript*  
 
-[🌐 Live Demo](https://bhuvi-web.web.app
+[🌐 Live Demo](https://bhuvi-web.web.app)
 
 ##  ⚡ Features
 - Display product list (Wireless Headphones, Smart Watch, Gaming Mouse, etc.)
