@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopNow - E-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">ShopNow</h1>
+    <nav>
+      <ul class="like">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart 🛒 <span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to ShopNow</h2>
+    <p>Find the best products at amazing prices!</p>
+  </section>
+
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="image head phone1.jpg" width="200"   alt="Wireless Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>₹2599</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="image watch4.jpg" width="200"     alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>₹1999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="image mouse3.jpg" width="200"  alt="Gaming Mouse">
+        <h3>Gaming Mouse</h3>
+        <p>₹1599</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 ShopNow. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
